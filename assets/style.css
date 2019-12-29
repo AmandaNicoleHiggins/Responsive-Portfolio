@@ -1,0 +1,213 @@
+/**
+Bio External CSS Stylesheet
+ **/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background-image: url("https://i.imgur.com/0ifQmvB.png");
+  }
+  
+  .header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    border-bottom: 1px #cccccc solid;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+
+  .Name {
+      background-color: #4aaaa5;
+      padding: 5px;
+      width: 25%;
+      float: left;
+      margin-left: 15%;
+      position: absolute;
+  }
+
+  h1{
+      font-size: 24px;
+      color: #ffffff;
+      text-align: center;
+  }
+
+  .header-links {
+      color: #333;
+      font-size: 12px;
+      font-family: Arial, Helvetica, sans-serif;
+      float: right;
+      width: 25%;
+      margin-right: 25%;
+      display: block;
+  }
+
+  a {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    text-decoration: none;
+  }
+  
+  #about {
+      padding: 20px;
+      font-size: 16px;
+  }
+
+  #portfolio {
+      padding: 20px;
+      font-size: 16px;
+  }
+
+  #contact {
+      padding: 20px;
+      font-size: 16px;
+  }
+
+  hr {  
+  }
+ 
+  .about-me {
+      width: 960px;
+      margin-left: 15%;
+      margin-right: 15%;
+      margin-top: 5%;
+      margin-bottom: 10%;
+      border: 1px #dddddd solid;
+      background-color: #ffffff;
+  }
+
+  h2 {
+      color: #4aaaa5;
+      font-size: 34px;
+      padding: 10px 30px 10px 30px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  p {
+      padding: 30px;
+      font-size: 18px;
+      color: gray;
+      line-height: 24px;
+  }
+
+  .bio-pic {
+      float: left;
+      padding: 0px 20px 20px 0px;
+      width: 200px;
+  }
+
+  .footer {
+      background-color: #666666;
+      height: 60px;
+      width: 100%;
+      position: fixed;
+      bottom: 0px;
+      border-top: 6px #4aaaa5 solid;
+  }
+
+  .portfolio {
+    width: 960px;
+    height: 700px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border: 1px #dddddd solid;
+    background-color: #ffffff;
+    position: relative;
+  }
+
+  .p1{
+      width: 200px;
+      height: 150px;
+      background-image: url(http://lorempixel.com/200/150/);
+      margin: 50px;
+      position: absolute;
+
+  }
+
+  .p2{
+    width: 200px;
+    height: 150px;
+    margin: 50px;
+    background-image: url(http://lorempixel.com/200/150/);
+    position: absolute;
+    top: 16%;
+    right: 390px;
+}
+
+.p3{
+    width: 200px;
+    height: 150px;
+    background-image: url(http://lorempixel.com/200/150/);
+      margin: 50px;
+      position: absolute;
+      top: 40%;
+      left: 0px;
+}
+
+.p4{
+    width: 200px;
+    height: 150px;
+    background-image: url(http://lorempixel.com/200/150/);
+    margin: 50px;
+    position: absolute;
+    top: 40%;
+    right: 390px;
+      
+}
+
+.p5{
+    width: 200px;
+    height: 150px;
+    background-image: url(http://lorempixel.com/200/150/);
+    margin: 50px;
+    position: absolute;
+    top: 65%;
+    left: 0px;
+      
+}
+
+#description {
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 40%;
+    text-align: center;
+    font-family: serif;
+    padding: 5px;
+
+}
+
+
+#form {
+    font-size: 12px;
+    text-align: left;
+    line-height: 20px;
+    padding: 20px;
+    margin: 0;
+    align-items: flex-start;
+    color: gray;
+}
+
+#contactme {
+    padding: 0px;
+}
+
+#name {
+    width: 900px;
+}
+
+#message {  
+    width: 900px;
+    height: 200px;
+}
+
+#button { 
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
