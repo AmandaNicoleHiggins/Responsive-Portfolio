@@ -143,10 +143,10 @@ body {
     width: 200px;
     height: 150px;
     background-image: url(http://lorempixel.com/200/150/);
-      margin: 50px;
-      position: absolute;
-      top: 40%;
-      left: 0px;
+    margin: 50px;
+    position: absolute;
+    top: 40%;
+    left: 0px;
 }
 
 .p4{
@@ -394,6 +394,18 @@ margin: none;
         background-color: #ffffff;
     }
 
+    .portfolio {
+        width: 100%;
+        height: 2100px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        border: 1px #dddddd solid;
+        background-color: #ffffff;
+        position: relative;
+      }
+
     #form {
         font-size: 12px;
         text-align: left;
@@ -413,6 +425,58 @@ margin: none;
         width: 90%;
         height: 200px;
     }
+
+    .p1 {
+            width: 400px;
+            height: 350px;
+            background-image: url(http://lorempixel.com/400/400/);
+            margin: 50px;
+            position: none;
+      
+        }
+   
+        .p2{
+            width: 400px;
+            height: 350px;
+            margin: 50px;
+            margin-top: 45%;
+            background-image: url(http://lorempixel.com/400/400/);
+            right: 0px;
+            position: none;
+        }
+        
+        .p3{
+            width: 400px;
+            height: 350px;
+            margin: 40px;
+            margin-top: 22%;
+            background-image: url(http://lorempixel.com/400/400/);
+            position: none;
+        }
+        
+        .p4{
+            width: 400px;
+            height: 350px;
+            margin: 50px;
+            margin-top: 100%;
+            background-image: url(http://lorempixel.com/400/400/);
+            right: 0px;
+            position: none;
+              
+        }
+        
+        .p5{
+            width: 200px;
+            width: 400px;
+            height: 350px;
+            margin: 50px;
+            margin-top: 72%;
+            background-image: url(http://lorempixel.com/400/400/);
+            position: none;
+              
+        }
+
+
 
 }
 
