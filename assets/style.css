@@ -214,15 +214,19 @@ body {
 
 @media screen and (max-width: 960px) {
 }
+.header-links {
+min-width: 300px;
+margin: none;
+}
 
 .about-me {
-    width: 50%;
+    width: 70%;
     border: 1px #dddddd solid;
     background-color: #ffffff;
 }
 
 .portfolio {
-    width: 50%;
+    width: 70%;
     border: 1px #dddddd solid;
     background-color: #ffffff;
     position: relative;
@@ -329,6 +333,20 @@ body {
     }
 
 
+.about-me {
+  max-width: 90%;
+    border: 1px #dddddd solid;
+    background-color: #ffffff;
+}
+
+.portfolio {
+    max-width: 90%;
+    border: 1px #dddddd solid;
+    background-color: #ffffff;
+    position: relative;
+  }
+
+
 
 }
 
@@ -353,6 +371,47 @@ body {
         align-items: flex-start;
         color: gray;
         width: 70%;
+    }
+
+    .Name {
+        float: none;
+        width: 100%;
+        margin-left: 0px !important;
+      }
+
+    .header-links {
+        padding-top: 20px;
+        margin-top: 10%;
+    }
+
+    .about-me {
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 20%;
+        margin-left: 0px;
+        margin-right: 0px;
+        border: 1px #dddddd solid;
+        background-color: #ffffff;
+    }
+
+    #form {
+        font-size: 12px;
+        text-align: left;
+        line-height: 20px;
+        padding: 20px;
+        margin: 0;
+        align-items: flex-start;
+        color: gray;
+        width: 90%;
+    }
+
+    #name {
+        width: 90%;
+    }
+
+    #message {  
+        width: 90%;
+        height: 200px;
     }
 
 }
